@@ -17,10 +17,24 @@ export const projects: Project[] = [
 export const education: Education[] = [
   {
     id: 1,
-    institution: 'Stanford University',
-    degree: 'M.S. Computer Science',
-    year: '2020-2022',
+    institution: 'Adani University',
+    degree: 'B.Tech in Computer Science Engineering',
+    year: '2023-2027',
     description: 'Specialized in Artificial Intelligence and Machine Learning',
+  },
+  {
+    id: 2,
+    institution: 'Muktajivan English School',
+    degree: '12th Grade',
+    year: '2022-2023',
+    description: 'Science stream',
+  },
+  {
+    id: 3,
+    institution: 'Nelson English School',
+    degree: '10th Grade',
+    year: '2021-2022',
+    description: '',
   },
   // Add more education entries
 ];

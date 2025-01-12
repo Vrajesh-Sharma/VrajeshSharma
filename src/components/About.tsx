@@ -22,14 +22,14 @@ export default function About() {
           </h2>
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="text-gray-300 text-lg leading-relaxed">
-                I'm a passionate Full Stack Developer with 5+ years of experience building innovative web applications. 
-                My journey in tech started with a curiosity about how things work on the internet, which led me to dive 
-                deep into modern web technologies and artificial intelligence.
+              <p className="text-gray-300 text-lg leading-relaxed">                
+              I’m a Machine Learning Enthusiast and Full Stack Developer pursuing a B.Tech in Computer Science Engineering 
+              at Adani University. As the Machine Learning Lead at ASPDC, I mentor peers and explore the fascinating world of 
+              AI, backed by certifications from Google, ISRO, and Skill India in Python, Machine Learning, and Deep Learning.
               </p>
               <p className="text-gray-300 text-lg leading-relaxed mt-4">
-                When I'm not coding, you can find me contributing to open-source projects, writing technical blogs, 
-                or exploring new technologies. I believe in continuous learning and sharing knowledge with the developer community.
+              Beyond academics, I actively engage in hackathons, research, and workshops, sharing knowledge on advanced topics 
+              like neural networks. My passion lies in leveraging technology to solve complex problems and drive innovation.
               </p>
             </div>
             <div className="relative">
@@ -37,11 +37,11 @@ export default function About() {
               <div className="relative bg-gray-800 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold text-cyan-400 mb-4">Quick Facts</h3>
                 <ul className="space-y-2 text-gray-300">
-                  <li>🌍 Based in San Francisco, CA</li>
-                  <li>💼 Full Stack Developer at Tech Corp</li>
-                  <li>🎓 M.S. in Computer Science</li>
-                  <li>🌱 Currently learning Rust and WebAssembly</li>
-                  <li>💬 Ask me about React, Node.js, or AI</li>
+                  <li>🌍 Based in Ahmedabad, Gujarat</li>
+                  <li>💼 Machine Learning Lead at ASPDC</li>
+                  <li>🎓 B.Tech in Computer Science Engineering</li>
+                  <li>🌱 Currently learning Neural Networks</li>
+                  <li>💬 Ask me about AI, Node.js, Database</li>
                 </ul>
               </div>
             </div>
