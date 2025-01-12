@@ -17,16 +17,16 @@ export default function Hero() {
           className="text-center"
         >
           <h1 className="text-5xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-500 mb-6">
-            John Doe
+            Vrajesh Sharma
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8">
-            Full Stack Developer & AI Enthusiast
+            Machine Learning Lead & Full Stack Developer
           </p>
           <div className="flex justify-center space-x-6">
             <motion.a
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
-              href="https://github.com"
+              href="https://github.com/Vrajesh-Sharma"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-cyan-400 transition-colors"
@@ -36,7 +36,7 @@ export default function Hero() {
             <motion.a
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/vrajesharma-7-dsa"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-cyan-400 transition-colors"
@@ -46,7 +46,7 @@ export default function Hero() {
             <motion.a
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
-              href="mailto:contact@example.com"
+              href="mailto:vrajesh.12042005@gmail.com"
               className="text-gray-400 hover:text-cyan-400 transition-colors"
             >
               <Mail size={24} />
