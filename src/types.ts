@@ -28,5 +28,5 @@ export interface Achievement {
 export interface Skill {
   name: string;
   level: number;
-  category: 'Frontend' | 'Backend' | 'Tools' | 'Other';
+  category: 'Frontend' | 'Backend' | 'Tools' | 'Programming' | 'AI/ML' | 'Database' | 'Other';
 }
