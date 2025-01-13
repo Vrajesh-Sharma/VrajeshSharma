@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
+import Hero from './components/Home';
 import About from './components/About';
 import Education from './components/Education';
 import Projects from './components/Projects';
