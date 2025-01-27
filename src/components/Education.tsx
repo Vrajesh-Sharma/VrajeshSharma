@@ -31,8 +31,8 @@ export default function Education() {
                 className={`relative mb-12 ${index % 2 === 0 ? 'pr-12 md:ml-auto md:pl-12 md:pr-0 md:w-1/2' : 'pl-12 md:mr-auto md:pr-12 md:pl-0 md:w-1/2'}`}
               >
                 <div className="relative bg-gray-800 p-6 rounded-lg shadow-lg">
-                  <div className="absolute top-6 -left-6 md:left-auto md:right-full md:mr-6">
-                    <div className="w-12 h-12 bg-gradient-to-br from-cyan-400 to-purple-500 rounded-full flex items-center justify-center">
+                  <div className={`absolute top-6 -left-0  ${index % 2 === 0 ?  "md:left-auto md:right-full md:mr-6" : "md:right-auto md:left-full md:ml-6" } `}>
+                    <div className={`w-12 h-12 bg-gradient-to-br from-cyan-400 to-purple-500 rounded-full flex items-center justify-center`}>
                       <span className="text-white font-bold">{item.year.split('-')[0]}</span>
                     </div>
                   </div>

@@ -61,7 +61,7 @@ export default function Projects() {
                     alt={project.title}
                     className="w-full h-full object-cover transition-transform group-hover:scale-110"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t"></div>
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-semibold text-cyan-400 mb-2">{project.title}</h3>
