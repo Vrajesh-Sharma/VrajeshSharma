@@ -19,7 +19,7 @@ export const projects: Project[] = [
     category: 'AI/ML',
     githubUrl: 'https://github.com/vrajesh-sharma/SarvaBhasha',
     liveUrl: 'https://sarvabhasha.onrender.com/',
-    image: 'src/assets/SarvaBhasha.jpeg',
+    image: 'https://raw.githubusercontent.com/Vrajesh-Sharma/VrajeshSharma/refs/heads/main/src/assets/SarvaBhasha.jpeg',
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ export const projects: Project[] = [
     category: 'AI/ML',
     githubUrl: 'https://github.com/vrajesh-sharma/Gift-Assistant',
     liveUrl: '', // Add the live demo URL if available
-    image: 'src/assets/GiftAssistant.png',
+    image: 'https://raw.githubusercontent.com/Vrajesh-Sharma/VrajeshSharma/refs/heads/main/src/assets/GiftAssistant.png',
   },
   // Add more projects as needed
 ];
