@@ -20,6 +20,7 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/vrajesh-sharma/SarvaBhasha',
     liveUrl: 'https://sarvabhasha.onrender.com/',
     image: 'https://raw.githubusercontent.com/Vrajesh-Sharma/VrajeshSharma/refs/heads/main/src/assets/SarvaBhasha.jpeg',
+    image: 'https://raw.githubusercontent.com/Vrajesh-Sharma/VrajeshSharma/refs/heads/main/src/assets/SarvaBhasha.jpeg',
   },
   {
     id: 3,
