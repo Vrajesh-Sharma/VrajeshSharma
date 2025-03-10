@@ -29,7 +29,7 @@ export const projects: Project[] = [
     category: 'AI/ML',
     githubUrl: 'https://github.com/vrajesh-sharma/Gift-Assistant',
     liveUrl: '', // Add the live demo URL if available
-    image: 'src/assets/GiftAssistant.png',
+    image: 'https://github.com/Vrajesh-Sharma/VrajeshSharma/blob/5c092cd615210bbe7ae685ab5d9434f8ee0b0595/src/assets/GiftAssistant.png',
   },
   // Add more projects as needed
 ];
