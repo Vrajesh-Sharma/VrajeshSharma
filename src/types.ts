@@ -3,7 +3,7 @@ export interface Project {
   title: string;
   description: string;
   technologies: string[];
-  category: 'Web' | 'Mobile' | 'AI/ML' | 'Other';
+  category: 'Web' | 'Mobile' | 'AI/ML' | 'Computer Vision' | 'Other';
   githubUrl?: string;
   liveUrl?: string;
   image: string;

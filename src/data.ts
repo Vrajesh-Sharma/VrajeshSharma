@@ -5,8 +5,8 @@ export const projects: Project[] = [
     id: 1,
     title: 'Bicep Curl Counter',
     description: 'A Flask-based web app using OpenCV and MediaPipe to count bicep curls based on elbow angle during exercise. Includes features like counter reset and webcam feed.',
-    technologies: ['Python', 'Flask', 'OpenCV', 'MediaPipe'],
-    category: 'AI/ML',
+    technologies: ['Python', 'Flask', 'OpenCV'],
+    category: 'Computer Vision',
     githubUrl: 'https://github.com/vrajesh-sharma/Bicep-Curl-Counter',
     liveUrl: '', // Add the live demo URL if available
     image: 'https://images.unsplash.com/photo-1605296867304-46d5465a13f1?auto=format&fit=crop&w=800&q=80',
@@ -15,11 +15,11 @@ export const projects: Project[] = [
     id: 2,
     title: 'SarvaBhasha',
     description: 'A language detection web app built using Flask and machine learning to identify languages from user-input text with 94.90% classification accuracy across 22 languages.',
-    technologies: ['Python', 'Flask', 'Machine Learning', 'NLP'],
+    technologies: ['Python', 'Flask', 'ML', 'NLP'],
     category: 'AI/ML',
     githubUrl: 'https://github.com/vrajesh-sharma/SarvaBhasha',
     liveUrl: 'https://sarvabhasha.onrender.com/',
-    image: 'src/assets/SarvaBhasha.jpeg',
+    image: 'https://raw.githubusercontent.com/Vrajesh-Sharma/VrajeshSharma/refs/heads/main/src/assets/SarvaBhasha.jpeg',
   },
   {
     id: 3,
@@ -29,7 +29,17 @@ export const projects: Project[] = [
     category: 'AI/ML',
     githubUrl: 'https://github.com/vrajesh-sharma/Gift-Assistant',
     liveUrl: '', // Add the live demo URL if available
-    image: 'src/assets/GiftAssistant.png',
+    image: 'https://raw.githubusercontent.com/Vrajesh-Sharma/VrajeshSharma/refs/heads/main/src/assets/GiftAssistant.png',
+  },
+  {
+    id: 4,
+    title: 'Balance Hub',
+    description: 'An AI-powered chatbot that suggests personalized gifts based on user preferences, budget, and occasion, enhancing the online gifting experience.',
+    technologies: ['React-Vite', 'Flask', 'NLP', 'Gemini API'],
+    category: 'Web',
+    githubUrl: 'https://github.com/vrajesh-sharma/Balance-Hub',
+    liveUrl: 'https://balance-hub.vercel.app/', // Add the live demo URL if available
+    image: 'https://raw.githubusercontent.com/Vrajesh-Sharma/VrajeshSharma/refs/heads/main/src/assets/BalanceHub.jpeg',
   },
   // Add more projects as needed
 ];
