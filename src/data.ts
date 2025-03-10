@@ -35,8 +35,8 @@ export const projects: Project[] = [
   {
     id: 4,
     title: 'Balance Hub',
-    description: 'An AI-powered chatbot that suggests personalized gifts based on user preferences, budget, and occasion, enhancing the online gifting experience.',
-    technologies: ['React-Vite', 'Flask', 'NLP', 'Gemini API'],
+    description: 'A web platform that helps users achieve a healthy work-life balance through AI-driven recommendations, time management tips, and stress-relief strategies.',
+    technologies: ['React-Vite', 'Tailwind CSS'],
     category: 'Web',
     githubUrl: 'https://github.com/vrajesh-sharma/Balance-Hub',
     liveUrl: 'https://balance-hub.vercel.app/', // Add the live demo URL if available
